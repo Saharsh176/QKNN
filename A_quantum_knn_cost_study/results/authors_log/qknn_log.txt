@@ -1,0 +1,74 @@
+P(ancillary_qubit_state):
+	P(0) = 0.4456313010    P(1) = 0.5543686990
+
+P(index_state,ancillary_qubit_state):
+	index state 0 (binary: 000)
+		P(0,0) = 0.0759721555    P(0,1) = 0.0716514642
+	index state 1 (binary: 001)
+		P(1,0) = 0.0518482957    P(1,1) = 0.0898943831
+	index state 2 (binary: 010)
+		P(2,0) = 0.0703312530    P(2,1) = 0.0786125780
+	index state 3 (binary: 011)
+		P(3,0) = 0.0583293327    P(3,1) = 0.0824531925
+	index state 4 (binary: 100)
+		P(4,0) = 0.0583293327    P(4,1) = 0.0781325012
+	index state 5 (binary: 101)
+		P(5,0) = 0.0650504081    P(5,1) = 0.0788526164
+	index state 6 (binary: 110)
+		P(6,0) = 0.0657705233    P(6,1) = 0.0747719635
+	index state 7 (binary: 111)
+		P(7,0) = 0.0000000000    P(7,1) = 0.0000000000
+
+Euclidean distances (w/o nonexistent index states):
+	index state 0 (binary: 000)
+		'zero' estimate = 0.6261906856    'one' estimate = 0.5704244892    'avg' estimate = 0.5983075874    'diff' estimate = 0.5989569570
+	index state 1 (binary: 001)
+		'zero' estimate = 0.2331967781    'one' estimate = 0.2645434439    'avg' estimate = 0.2488701110    'diff' estimate = 0.2493631599
+	index state 2 (binary: 010)
+		'zero' estimate = 0.5595910464    'one' estimate = 0.4774185847    'avg' estimate = 0.5185048155    'diff' estimate = 0.5201301011
+	index state 3 (binary: 011)
+		'zero' estimate = 0.3809399623    'one' estimate = 0.4173246961    'avg' estimate = 0.3991323292    'diff' estimate = 0.3995467162
+	index state 4 (binary: 100)
+		'zero' estimate = 0.3809399623    'one' estimate = 0.4844064206    'avg' estimate = 0.4326731915    'diff' estimate = 0.4357549972
+	index state 5 (binary: 101)
+		'zero' estimate = 0.4890913106    'one' estimate = 0.4738860277    'avg' estimate = 0.4814886692    'diff' estimate = 0.4815486878
+	index state 6 (binary: 110)
+		'zero' estimate = 0.4992914210    'one' estimate = 0.5307514559    'avg' estimate = 0.5150214385    'diff' estimate = 0.5152615991
+
+
+Instances sorted according to the 'avg' distance estimate  (w/o nonexistent index states):
+	index state: 1, distance: 0.2488701110
+	index state: 3, distance: 0.3991323292
+	index state: 4, distance: 0.4326731915
+	----------------------------------------------------------------------------------
+	index state: 5, distance: 0.4814886692
+	index state: 6, distance: 0.5150214385
+	index state: 2, distance: 0.5185048155
+	index state: 0, distance: 0.5983075874
+
+The normalized 3 nearest neighbors for the target instance provided (according to the 'avg' distance estimate) are:
+         x1        x2        x3        x4        x5        x6  Label
+0  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000      1
+1  0.112268  0.173506  0.122474  0.158196 -0.183712 -0.029161     -1
+2 -0.040825 -0.071443 -0.190516 -0.053583  0.163299 -0.104978      1
+
+The target instance label predicted is: 1
+
+
+Instances sorted according to the 'diff' distance estimate  (w/o nonexistent index states):
+	index state: 1, distance: 0.2493631599
+	index state: 3, distance: 0.3995467162
+	index state: 4, distance: 0.4357549972
+	----------------------------------------------------------------------------------
+	index state: 5, distance: 0.4815486878
+	index state: 6, distance: 0.5152615991
+	index state: 2, distance: 0.5201301011
+	index state: 0, distance: 0.5989569570
+
+The normalized 3 nearest neighbors for the target instance provided (according to the 'diff' distance estimate) are:
+         x1        x2        x3        x4        x5        x6  Label
+0  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000      1
+1  0.112268  0.173506  0.122474  0.158196 -0.183712 -0.029161     -1
+2 -0.040825 -0.071443 -0.190516 -0.053583  0.163299 -0.104978      1
+
+The target instance label predicted is: 1

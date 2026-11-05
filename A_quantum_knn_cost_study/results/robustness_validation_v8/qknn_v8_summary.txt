@@ -1,0 +1,26 @@
+QKNN v8 robustness validation summary
+Analysis-only: reuses v7 query-level data; no new sampling simulation.
+Input: /Users/saharsh/Desktop/qiskit/research_workspace/A_quantum_knn_cost_study/results/shots_k_sensitivity_v7/qknn_query_level.csv
+Rows: 816000
+Estimators: zero, one, avg, diff
+Correlation thresholds: [0.8, 0.9, 0.95]
+Regression thresholds: [0.9]
+Dataset-specific regression thresholds: [0.9]
+
+Pooled adjusted regressions (coefficient < 0 indicates higher robustness is associated with fewer shots):
+zero | 0.9 | vote_margin | coef=-0.8833487431675572 | CI=(-0.9106048249120922, -0.8560926614230222) | partial_R2=0.1550400971735878 | n=67993 | clusters=3000 | status=fit
+zero | 0.9 | min_class_flipping_swaps | coef=-1.5365156801945108 | CI=(-1.5846243606718198, -1.4884069997172018) | partial_R2=0.14778686395342455 | n=67541 | clusters=3000 | status=fit
+zero | 0.9 | class_margin_distance_cost | coef=-1.2859186714716482 | CI=(-1.3117039146973688, -1.2601334282459276) | partial_R2=0.4147580778023929 | n=67541 | clusters=3000 | status=fit
+zero | 0.9 | single_competitor_min_flip_penalty | coef=-1.2546416769603699 | CI=(-1.2785492332057653, -1.2307341207149745) | partial_R2=0.44309285237554663 | n=67609 | clusters=3000 | status=fit
+one | 0.9 | vote_margin | coef=-0.8647403614928937 | CI=(-0.8929157944952608, -0.8365649284905265) | partial_R2=0.1363445056225569 | n=67993 | clusters=3000 | status=fit
+one | 0.9 | min_class_flipping_swaps | coef=-1.5311160068963665 | CI=(-1.579238680334496, -1.482993333458237) | partial_R2=0.13471389496574182 | n=67541 | clusters=3000 | status=fit
+one | 0.9 | class_margin_distance_cost | coef=-1.2918746976199258 | CI=(-1.3176171182597918, -1.2661322769800598) | partial_R2=0.3842757618537063 | n=67541 | clusters=3000 | status=fit
+one | 0.9 | single_competitor_min_flip_penalty | coef=-1.2564728784541257 | CI=(-1.280541084939203, -1.2324046719690485) | partial_R2=0.4079790620551211 | n=67609 | clusters=3000 | status=fit
+avg | 0.9 | vote_margin | coef=-0.8735591430935755 | CI=(-0.9007241868175194, -0.8463940993696316) | partial_R2=0.15320576106140968 | n=67993 | clusters=3000 | status=fit
+avg | 0.9 | min_class_flipping_swaps | coef=-1.5367540231450154 | CI=(-1.584701118950065, -1.4888069273399658) | partial_R2=0.1489203901467893 | n=67541 | clusters=3000 | status=fit
+avg | 0.9 | class_margin_distance_cost | coef=-1.3017017924921386 | CI=(-1.3259793491987273, -1.2774242357855499) | partial_R2=0.4281288179630805 | n=67541 | clusters=3000 | status=fit
+avg | 0.9 | single_competitor_min_flip_penalty | coef=-1.2640494957122692 | CI=(-1.2865489312160696, -1.2415500602084688) | partial_R2=0.45316321759138767 | n=67609 | clusters=3000 | status=fit
+diff | 0.9 | vote_margin | coef=-0.8730501455606614 | CI=(-0.89977215073026, -0.8463281403910629) | partial_R2=0.1562005591229041 | n=67993 | clusters=3000 | status=fit
+diff | 0.9 | min_class_flipping_swaps | coef=-1.5220814449473168 | CI=(-1.568711314759359, -1.4754515751352746) | partial_R2=0.14911938926529605 | n=67541 | clusters=3000 | status=fit
+diff | 0.9 | class_margin_distance_cost | coef=-1.2846564775738996 | CI=(-1.309057529153484, -1.260255425994315) | partial_R2=0.4256360098937135 | n=67541 | clusters=3000 | status=fit
+diff | 0.9 | single_competitor_min_flip_penalty | coef=-1.253460432163965 | CI=(-1.2759943258884325, -1.2309265384394976) | partial_R2=0.4548883218331471 | n=67609 | clusters=3000 | status=fit

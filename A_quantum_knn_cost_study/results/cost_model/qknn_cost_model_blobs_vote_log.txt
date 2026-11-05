@@ -1,0 +1,23 @@
+dataset=blobs  F=8  criterion=vote  threshold=0.95  estimator=avg  q=1
+
+Measured shots and shots per training sample (c = S/N):
+  N=   16   S=       11,667   c=     729.2
+  N=   32   S=        8,747   c=     273.3
+  N=   64   S=       20,532   c=     320.8
+  N=  128   S=       30,048   c=     234.8
+  N=  256   S=       69,799   c=     272.7
+  N=  512   S=      151,937   c=     296.8
+  N= 1024   S=      375,185   c=     366.4
+fitted exponent over all points b = 0.89;  local (last 3) = 1.21
+anchor: S(1024) = 375,185
+
+At N = 1024: the method needs c = 366.4 shots per training sample.
+Shots per sample it could AFFORD to still do less work (c*), and how many times too many:
+  no QRAM (generic loading)    vs brute: c* =   0.000977  (needs 3.75e+05x fewer shots)   | vs approximate: c* =   0.000488
+  reduced loading r=0.01       vs brute: c* =     0.0977  (needs 3.75e+03x fewer shots)   | vs approximate: c* =     0.0488
+  ideal QRAM (query depth)     vs brute: c* =      0.615  (needs 595x fewer shots)   | vs approximate: c* =      0.308
+  streaming (eps=0.1)          vs brute: c* =   7.51e-06  (needs 4.88e+07x fewer shots)   | vs approximate: c* =   3.76e-06
+
+Break-even N (extrapolated above N=1024): "never (to grid end)" in every scenario/loading model,
+except: flat shots (b=0) + ideal QRAM vs brute force -> N ~ 1.12e+06; local b=1.21 + reduced loading vs approximate -> "not sustained".
+(Log transcribed from the terminal output pasted in the chat; the original CSV/PNG files live on the author's machine.)

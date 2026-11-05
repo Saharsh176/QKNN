@@ -1,0 +1,43 @@
+QKNN V9 statistical validation
+Analysis-only: no quantum circuits or new sampling.
+Input: /Users/saharsh/Desktop/qiskit/research_workspace/A_quantum_knn_cost_study/results/shots_k_sensitivity_v7/qknn_query_level.csv
+Rows: 816000
+Estimators: ['zero', 'one', 'avg', 'diff']
+Threshold: 0.9
+Held-out query fraction: 0.2; split seed: 42; repeats: 10
+
+Query fixed-effects: negative robustness coefficient means higher robustness is associated with fewer shots within the same query, conditional on delta_s, N and k.
+zero | vote_margin | coef=-0.6160047117612378 | CI=(-0.6391740413324083,-0.5928353821900674) | partial_within_R2=0.09077634875313147 | queries=3000 | status=fit
+zero | min_class_flipping_swaps | coef=-1.0352387488920334 | CI=(-1.0742812050368615,-0.9961962927472052) | partial_within_R2=0.08045993920844657 | queries=3000 | status=fit
+zero | class_margin_distance_cost | coef=-1.2680953808446558 | CI=(-1.2980329184756592,-1.2381578432136524) | partial_within_R2=0.2881605203177546 | queries=3000 | status=fit
+zero | single_competitor_min_flip_penalty | coef=-1.213610665783717 | CI=(-1.2409848138436324,-1.1862365177238015) | partial_within_R2=0.3199127245373555 | queries=3000 | status=fit
+one | vote_margin | coef=-0.5884081922348454 | CI=(-0.6127474298568452,-0.5640689546128457) | partial_within_R2=0.07511048596605456 | queries=3000 | status=fit
+one | min_class_flipping_swaps | coef=-1.0173089486641798 | CI=(-1.0568956708378021,-0.9777222264905575) | partial_within_R2=0.07041853422555877 | queries=3000 | status=fit
+one | class_margin_distance_cost | coef=-1.2628315256245515 | CI=(-1.2926718830504214,-1.2329911681986816) | partial_within_R2=0.25900256114690107 | queries=3000 | status=fit
+one | single_competitor_min_flip_penalty | coef=-1.201918614532381 | CI=(-1.2299404569538004,-1.1738967721109617) | partial_within_R2=0.28465741849531706 | queries=3000 | status=fit
+avg | vote_margin | coef=-0.5922471455056494 | CI=(-0.6149510325648381,-0.5695432584464607) | partial_within_R2=0.08688423580274329 | queries=3000 | status=fit
+avg | min_class_flipping_swaps | coef=-1.0111488640941657 | CI=(-1.0490268754063938,-0.9732708527819376) | partial_within_R2=0.07922071967831318 | queries=3000 | status=fit
+avg | class_margin_distance_cost | coef=-1.2500912296230227 | CI=(-1.27817470766412,-1.2220077515819254) | partial_within_R2=0.289017393582769 | queries=3000 | status=fit
+avg | single_competitor_min_flip_penalty | coef=-1.1899662964746243 | CI=(-1.216125713220207,-1.1638068797290415) | partial_within_R2=0.31765381014231725 | queries=3000 | status=fit
+diff | vote_margin | coef=-0.6057424205558596 | CI=(-0.6284446919647322,-0.583040149146987) | partial_within_R2=0.09151884413707936 | queries=3000 | status=fit
+diff | min_class_flipping_swaps | coef=-1.020026935210276 | CI=(-1.0572394805318002,-0.9828143898887518) | partial_within_R2=0.0811494064471145 | queries=3000 | status=fit
+diff | class_margin_distance_cost | coef=-1.2493087775216227 | CI=(-1.2778938295015867,-1.2207237255416588) | partial_within_R2=0.2905585281716597 | queries=3000 | status=fit
+diff | single_competitor_min_flip_penalty | coef=-1.1982335763347565 | CI=(-1.2242126002977085,-1.1722545523718044) | partial_within_R2=0.3242994109438514 | queries=3000 | status=fit
+
+Held-out query prediction: positive RMSE reduction means adding robustness improves prediction on unseen query groups. This is predictive evidence, not causality.
+avg | class_margin_distance_cost | mean_RMSE_reduction=0.23735252330509587 | std=0.010630687729918754 | improved_fraction=1.0 | repeats=10
+avg | min_class_flipping_swaps | mean_RMSE_reduction=0.07529636722095544 | std=0.00487429937193822 | improved_fraction=1.0 | repeats=10
+avg | single_competitor_min_flip_penalty | mean_RMSE_reduction=0.25626721228462795 | std=0.012038256647495 | improved_fraction=1.0 | repeats=10
+avg | vote_margin | mean_RMSE_reduction=0.07782113786454312 | std=0.006357431382627578 | improved_fraction=1.0 | repeats=10
+diff | class_margin_distance_cost | mean_RMSE_reduction=0.24314317619258913 | std=0.007274888967508246 | improved_fraction=1.0 | repeats=10
+diff | min_class_flipping_swaps | mean_RMSE_reduction=0.07872703280986779 | std=0.003259217417584299 | improved_fraction=1.0 | repeats=10
+diff | single_competitor_min_flip_penalty | mean_RMSE_reduction=0.2630595015582582 | std=0.0062634066566642915 | improved_fraction=1.0 | repeats=10
+diff | vote_margin | mean_RMSE_reduction=0.08268694756093181 | std=0.0043751171785408206 | improved_fraction=1.0 | repeats=10
+one | class_margin_distance_cost | mean_RMSE_reduction=0.21499579276915898 | std=0.004881698227514576 | improved_fraction=1.0 | repeats=10
+one | min_class_flipping_swaps | mean_RMSE_reduction=0.069157711369687 | std=0.002248782591750383 | improved_fraction=1.0 | repeats=10
+one | single_competitor_min_flip_penalty | mean_RMSE_reduction=0.23123939828020693 | std=0.005998619537245232 | improved_fraction=1.0 | repeats=10
+one | vote_margin | mean_RMSE_reduction=0.07001891912707839 | std=0.0030789564464776768 | improved_fraction=1.0 | repeats=10
+zero | class_margin_distance_cost | mean_RMSE_reduction=0.23205637593644143 | std=0.008274853504736406 | improved_fraction=1.0 | repeats=10
+zero | min_class_flipping_swaps | mean_RMSE_reduction=0.07641363933373864 | std=0.0034900037214238558 | improved_fraction=1.0 | repeats=10
+zero | single_competitor_min_flip_penalty | mean_RMSE_reduction=0.2516531894553627 | std=0.009105220533548225 | improved_fraction=1.0 | repeats=10
+zero | vote_margin | mean_RMSE_reduction=0.080008710537635 | std=0.0036380334754866086 | improved_fraction=1.0 | repeats=10
