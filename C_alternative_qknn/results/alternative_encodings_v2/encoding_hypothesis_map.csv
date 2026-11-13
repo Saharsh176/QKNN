@@ -1,0 +1,18 @@
+dataset,dataset_family,theoretical_hypothesis,original_n_features,retained_n_features
+iris,real,"Mixed continuous measurements; small, low-dimensional benchmark.",4,4
+wine,real,Continuous chemical measurements with different feature scales.,13,13
+breast_cancer,real,"Continuous, correlated biomedical measurements.",30,30
+digits,real,Integer-valued pixel intensities; high-dimensional with constant pixels.,64,60
+directional_clusters,directional,Class depends primarily on vector direction; amplitude's norm invariance may help.,12,12
+radial_magnitude,magnitude,Class depends on radius along similar directions; amplitude's norm invariance should hurt.,12,12
+binary_hamming,binary,Binary prototype classes with independent bit flips; Hamming geometry is a plausible fit.,16,16
+sparse_signal,sparse,Sparse informative coordinates embedded in many zero/noise coordinates.,64,64
+periodic_features,periodic,Features live on a periodic domain; phase periodicity may help for suitable alpha.,6,6
+correlated_redundant,correlated,Strongly correlated and duplicated/redundant dimensions.,15,15
+anisotropic_blobs,continuous,Continuous clusters with rotated anisotropic covariance.,4,4
+moons,manifold,Nonlinear two-dimensional manifold.,2,2
+circles,manifold,Concentric circular structure.,2,2
+high_dim_weak_signal,high_dimensional,"Many dimensions, few informative features and weak class separation.",80,80
+heavy_tailed,heavy_tailed,Continuous data with heavy-tailed feature distributions and outliers.,10,10
+ordinal_discrete,ordinal,Ordered discrete feature levels; quantisation resolution matters.,8,8
+imbalanced,imbalanced,Severe class imbalance; accuracy alone is insufficient.,12,12

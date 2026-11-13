@@ -1,0 +1,1021 @@
+dataset,seed,model_family,retained_features,basis_bits_per_feature,estimated_data_qubits,encoding_operations_lower_bound,resource_note
+iris,0,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,0,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,0,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,0,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,0,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,0,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,1,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,1,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,1,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,1,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,1,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,1,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,2,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,2,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,2,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,2,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,2,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,2,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,3,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,3,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,3,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,3,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,3,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,3,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,4,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,4,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,4,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,4,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,4,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,4,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,5,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,5,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,5,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,5,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,5,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,5,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,6,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,6,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,6,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,6,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,6,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,6,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,7,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,7,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,7,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,7,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,7,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,7,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,8,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,8,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,8,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,8,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,8,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,8,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+iris,9,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+iris,9,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+iris,9,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+iris,9,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+iris,9,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+iris,9,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+wine,0,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,0,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,0,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,0,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,0,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,0,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,1,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,1,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,1,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,1,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,1,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,1,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,2,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,2,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,2,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,2,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,2,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,2,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,3,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,3,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,3,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,3,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,3,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,3,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,4,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,4,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,4,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,4,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,4,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,4,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,5,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,5,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,5,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,5,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,5,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,5,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,6,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,6,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,6,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,6,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,6,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,6,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,7,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,7,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,7,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,7,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,7,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,7,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,8,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,8,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,8,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,8,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,8,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,8,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+wine,9,amplitude,13,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+wine,9,phase_product,13,,13,13.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+wine,9,angle_product,13,,13,13.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+wine,9,basis_1bit,13,1.0,13,13.0,one computational-basis qubit per quantisation bit
+wine,9,basis_2bit,13,2.0,26,26.0,one computational-basis qubit per quantisation bit
+wine,9,basis_4bit,13,4.0,52,52.0,one computational-basis qubit per quantisation bit
+breast_cancer,0,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,0,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,0,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,0,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,0,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,0,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,1,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,1,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,1,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,1,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,1,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,1,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,2,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,2,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,2,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,2,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,2,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,2,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,3,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,3,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,3,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,3,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,3,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,3,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,4,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,4,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,4,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,4,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,4,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,4,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,5,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,5,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,5,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,5,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,5,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,5,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,6,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,6,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,6,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,6,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,6,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,6,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,7,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,7,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,7,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,7,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,7,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,7,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,8,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,8,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,8,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,8,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,8,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,8,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+breast_cancer,9,amplitude,30,,5,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+breast_cancer,9,phase_product,30,,30,30.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+breast_cancer,9,angle_product,30,,30,30.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+breast_cancer,9,basis_1bit,30,1.0,30,30.0,one computational-basis qubit per quantisation bit
+breast_cancer,9,basis_2bit,30,2.0,60,60.0,one computational-basis qubit per quantisation bit
+breast_cancer,9,basis_4bit,30,4.0,120,120.0,one computational-basis qubit per quantisation bit
+digits,0,amplitude,60,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,0,phase_product,60,,60,60.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,0,angle_product,60,,60,60.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,0,basis_1bit,60,1.0,60,60.0,one computational-basis qubit per quantisation bit
+digits,0,basis_2bit,60,2.0,120,120.0,one computational-basis qubit per quantisation bit
+digits,0,basis_4bit,60,4.0,240,240.0,one computational-basis qubit per quantisation bit
+digits,1,amplitude,59,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,1,phase_product,59,,59,59.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,1,angle_product,59,,59,59.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,1,basis_1bit,59,1.0,59,59.0,one computational-basis qubit per quantisation bit
+digits,1,basis_2bit,59,2.0,118,118.0,one computational-basis qubit per quantisation bit
+digits,1,basis_4bit,59,4.0,236,236.0,one computational-basis qubit per quantisation bit
+digits,2,amplitude,60,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,2,phase_product,60,,60,60.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,2,angle_product,60,,60,60.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,2,basis_1bit,60,1.0,60,60.0,one computational-basis qubit per quantisation bit
+digits,2,basis_2bit,60,2.0,120,120.0,one computational-basis qubit per quantisation bit
+digits,2,basis_4bit,60,4.0,240,240.0,one computational-basis qubit per quantisation bit
+digits,3,amplitude,60,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,3,phase_product,60,,60,60.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,3,angle_product,60,,60,60.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,3,basis_1bit,60,1.0,60,60.0,one computational-basis qubit per quantisation bit
+digits,3,basis_2bit,60,2.0,120,120.0,one computational-basis qubit per quantisation bit
+digits,3,basis_4bit,60,4.0,240,240.0,one computational-basis qubit per quantisation bit
+digits,4,amplitude,59,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,4,phase_product,59,,59,59.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,4,angle_product,59,,59,59.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,4,basis_1bit,59,1.0,59,59.0,one computational-basis qubit per quantisation bit
+digits,4,basis_2bit,59,2.0,118,118.0,one computational-basis qubit per quantisation bit
+digits,4,basis_4bit,59,4.0,236,236.0,one computational-basis qubit per quantisation bit
+digits,5,amplitude,58,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,5,phase_product,58,,58,58.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,5,angle_product,58,,58,58.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,5,basis_1bit,58,1.0,58,58.0,one computational-basis qubit per quantisation bit
+digits,5,basis_2bit,58,2.0,116,116.0,one computational-basis qubit per quantisation bit
+digits,5,basis_4bit,58,4.0,232,232.0,one computational-basis qubit per quantisation bit
+digits,6,amplitude,61,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,6,phase_product,61,,61,61.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,6,angle_product,61,,61,61.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,6,basis_1bit,61,1.0,61,61.0,one computational-basis qubit per quantisation bit
+digits,6,basis_2bit,61,2.0,122,122.0,one computational-basis qubit per quantisation bit
+digits,6,basis_4bit,61,4.0,244,244.0,one computational-basis qubit per quantisation bit
+digits,7,amplitude,60,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,7,phase_product,60,,60,60.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,7,angle_product,60,,60,60.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,7,basis_1bit,60,1.0,60,60.0,one computational-basis qubit per quantisation bit
+digits,7,basis_2bit,60,2.0,120,120.0,one computational-basis qubit per quantisation bit
+digits,7,basis_4bit,60,4.0,240,240.0,one computational-basis qubit per quantisation bit
+digits,8,amplitude,59,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,8,phase_product,59,,59,59.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,8,angle_product,59,,59,59.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,8,basis_1bit,59,1.0,59,59.0,one computational-basis qubit per quantisation bit
+digits,8,basis_2bit,59,2.0,118,118.0,one computational-basis qubit per quantisation bit
+digits,8,basis_4bit,59,4.0,236,236.0,one computational-basis qubit per quantisation bit
+digits,9,amplitude,60,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+digits,9,phase_product,60,,60,60.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+digits,9,angle_product,60,,60,60.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+digits,9,basis_1bit,60,1.0,60,60.0,one computational-basis qubit per quantisation bit
+digits,9,basis_2bit,60,2.0,120,120.0,one computational-basis qubit per quantisation bit
+digits,9,basis_4bit,60,4.0,240,240.0,one computational-basis qubit per quantisation bit
+directional_clusters,0,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,0,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,0,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,0,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,0,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,0,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,1,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,1,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,1,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,1,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,1,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,1,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,2,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,2,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,2,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,2,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,2,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,2,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,3,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,3,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,3,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,3,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,3,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,3,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,4,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,4,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,4,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,4,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,4,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,4,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,5,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,5,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,5,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,5,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,5,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,5,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,6,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,6,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,6,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,6,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,6,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,6,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,7,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,7,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,7,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,7,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,7,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,7,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,8,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,8,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,8,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,8,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,8,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,8,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+directional_clusters,9,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+directional_clusters,9,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+directional_clusters,9,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+directional_clusters,9,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+directional_clusters,9,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+directional_clusters,9,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,0,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,0,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,0,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,0,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,0,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,0,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,1,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,1,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,1,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,1,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,1,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,1,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,2,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,2,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,2,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,2,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,2,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,2,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,3,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,3,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,3,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,3,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,3,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,3,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,4,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,4,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,4,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,4,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,4,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,4,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,5,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,5,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,5,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,5,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,5,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,5,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,6,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,6,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,6,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,6,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,6,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,6,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,7,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,7,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,7,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,7,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,7,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,7,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,8,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,8,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,8,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,8,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,8,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,8,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+radial_magnitude,9,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+radial_magnitude,9,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+radial_magnitude,9,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+radial_magnitude,9,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+radial_magnitude,9,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+radial_magnitude,9,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+binary_hamming,0,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,0,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,0,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,0,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,0,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,0,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,1,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,1,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,1,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,1,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,1,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,1,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,2,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,2,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,2,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,2,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,2,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,2,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,3,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,3,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,3,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,3,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,3,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,3,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,4,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,4,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,4,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,4,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,4,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,4,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,5,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,5,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,5,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,5,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,5,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,5,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,6,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,6,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,6,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,6,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,6,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,6,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,7,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,7,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,7,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,7,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,7,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,7,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,8,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,8,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,8,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,8,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,8,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,8,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+binary_hamming,9,amplitude,16,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+binary_hamming,9,phase_product,16,,16,16.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+binary_hamming,9,angle_product,16,,16,16.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+binary_hamming,9,basis_1bit,16,1.0,16,16.0,one computational-basis qubit per quantisation bit
+binary_hamming,9,basis_2bit,16,2.0,32,32.0,one computational-basis qubit per quantisation bit
+binary_hamming,9,basis_4bit,16,4.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,0,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,0,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,0,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,0,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,0,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,0,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,1,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,1,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,1,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,1,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,1,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,1,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,2,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,2,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,2,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,2,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,2,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,2,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,3,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,3,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,3,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,3,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,3,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,3,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,4,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,4,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,4,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,4,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,4,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,4,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,5,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,5,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,5,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,5,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,5,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,5,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,6,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,6,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,6,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,6,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,6,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,6,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,7,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,7,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,7,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,7,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,7,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,7,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,8,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,8,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,8,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,8,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,8,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,8,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+sparse_signal,9,amplitude,64,,6,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+sparse_signal,9,phase_product,64,,64,64.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+sparse_signal,9,angle_product,64,,64,64.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+sparse_signal,9,basis_1bit,64,1.0,64,64.0,one computational-basis qubit per quantisation bit
+sparse_signal,9,basis_2bit,64,2.0,128,128.0,one computational-basis qubit per quantisation bit
+sparse_signal,9,basis_4bit,64,4.0,256,256.0,one computational-basis qubit per quantisation bit
+periodic_features,0,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,0,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,0,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,0,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,0,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,0,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,1,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,1,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,1,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,1,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,1,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,1,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,2,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,2,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,2,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,2,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,2,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,2,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,3,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,3,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,3,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,3,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,3,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,3,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,4,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,4,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,4,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,4,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,4,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,4,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,5,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,5,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,5,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,5,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,5,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,5,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,6,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,6,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,6,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,6,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,6,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,6,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,7,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,7,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,7,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,7,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,7,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,7,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,8,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,8,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,8,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,8,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,8,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,8,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+periodic_features,9,amplitude,6,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+periodic_features,9,phase_product,6,,6,6.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+periodic_features,9,angle_product,6,,6,6.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+periodic_features,9,basis_1bit,6,1.0,6,6.0,one computational-basis qubit per quantisation bit
+periodic_features,9,basis_2bit,6,2.0,12,12.0,one computational-basis qubit per quantisation bit
+periodic_features,9,basis_4bit,6,4.0,24,24.0,one computational-basis qubit per quantisation bit
+correlated_redundant,0,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,0,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,0,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,0,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,0,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,0,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,1,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,1,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,1,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,1,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,1,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,1,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,2,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,2,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,2,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,2,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,2,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,2,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,3,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,3,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,3,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,3,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,3,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,3,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,4,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,4,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,4,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,4,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,4,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,4,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,5,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,5,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,5,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,5,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,5,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,5,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,6,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,6,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,6,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,6,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,6,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,6,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,7,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,7,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,7,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,7,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,7,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,7,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,8,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,8,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,8,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,8,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,8,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,8,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+correlated_redundant,9,amplitude,15,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+correlated_redundant,9,phase_product,15,,15,15.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+correlated_redundant,9,angle_product,15,,15,15.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+correlated_redundant,9,basis_1bit,15,1.0,15,15.0,one computational-basis qubit per quantisation bit
+correlated_redundant,9,basis_2bit,15,2.0,30,30.0,one computational-basis qubit per quantisation bit
+correlated_redundant,9,basis_4bit,15,4.0,60,60.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,0,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,0,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,0,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,0,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,0,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,0,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,1,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,1,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,1,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,1,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,1,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,1,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,2,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,2,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,2,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,2,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,2,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,2,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,3,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,3,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,3,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,3,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,3,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,3,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,4,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,4,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,4,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,4,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,4,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,4,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,5,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,5,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,5,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,5,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,5,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,5,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,6,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,6,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,6,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,6,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,6,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,6,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,7,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,7,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,7,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,7,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,7,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,7,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,8,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,8,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,8,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,8,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,8,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,8,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,9,amplitude,4,,2,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+anisotropic_blobs,9,phase_product,4,,4,4.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+anisotropic_blobs,9,angle_product,4,,4,4.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+anisotropic_blobs,9,basis_1bit,4,1.0,4,4.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,9,basis_2bit,4,2.0,8,8.0,one computational-basis qubit per quantisation bit
+anisotropic_blobs,9,basis_4bit,4,4.0,16,16.0,one computational-basis qubit per quantisation bit
+moons,0,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,0,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,0,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,0,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,0,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,0,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,1,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,1,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,1,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,1,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,1,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,1,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,2,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,2,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,2,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,2,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,2,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,2,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,3,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,3,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,3,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,3,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,3,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,3,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,4,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,4,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,4,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,4,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,4,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,4,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,5,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,5,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,5,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,5,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,5,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,5,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,6,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,6,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,6,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,6,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,6,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,6,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,7,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,7,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,7,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,7,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,7,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,7,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,8,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,8,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,8,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,8,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,8,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,8,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+moons,9,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+moons,9,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+moons,9,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+moons,9,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+moons,9,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+moons,9,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,0,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,0,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,0,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,0,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,0,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,0,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,1,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,1,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,1,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,1,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,1,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,1,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,2,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,2,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,2,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,2,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,2,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,2,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,3,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,3,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,3,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,3,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,3,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,3,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,4,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,4,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,4,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,4,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,4,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,4,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,5,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,5,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,5,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,5,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,5,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,5,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,6,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,6,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,6,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,6,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,6,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,6,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,7,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,7,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,7,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,7,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,7,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,7,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,8,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,8,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,8,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,8,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,8,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,8,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+circles,9,amplitude,2,,1,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+circles,9,phase_product,2,,2,2.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+circles,9,angle_product,2,,2,2.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+circles,9,basis_1bit,2,1.0,2,2.0,one computational-basis qubit per quantisation bit
+circles,9,basis_2bit,2,2.0,4,4.0,one computational-basis qubit per quantisation bit
+circles,9,basis_4bit,2,4.0,8,8.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,0,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,0,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,0,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,0,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,0,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,0,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,1,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,1,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,1,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,1,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,1,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,1,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,2,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,2,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,2,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,2,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,2,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,2,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,3,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,3,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,3,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,3,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,3,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,3,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,4,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,4,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,4,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,4,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,4,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,4,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,5,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,5,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,5,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,5,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,5,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,5,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,6,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,6,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,6,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,6,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,6,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,6,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,7,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,7,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,7,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,7,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,7,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,7,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,8,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,8,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,8,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,8,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,8,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,8,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,9,amplitude,80,,7,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+high_dim_weak_signal,9,phase_product,80,,80,80.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+high_dim_weak_signal,9,angle_product,80,,80,80.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+high_dim_weak_signal,9,basis_1bit,80,1.0,80,80.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,9,basis_2bit,80,2.0,160,160.0,one computational-basis qubit per quantisation bit
+high_dim_weak_signal,9,basis_4bit,80,4.0,320,320.0,one computational-basis qubit per quantisation bit
+heavy_tailed,0,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,0,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,0,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,0,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,0,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,0,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,1,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,1,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,1,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,1,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,1,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,1,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,2,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,2,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,2,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,2,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,2,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,2,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,3,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,3,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,3,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,3,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,3,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,3,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,4,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,4,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,4,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,4,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,4,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,4,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,5,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,5,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,5,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,5,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,5,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,5,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,6,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,6,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,6,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,6,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,6,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,6,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,7,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,7,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,7,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,7,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,7,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,7,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,8,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,8,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,8,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,8,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,8,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,8,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+heavy_tailed,9,amplitude,10,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+heavy_tailed,9,phase_product,10,,10,10.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+heavy_tailed,9,angle_product,10,,10,10.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+heavy_tailed,9,basis_1bit,10,1.0,10,10.0,one computational-basis qubit per quantisation bit
+heavy_tailed,9,basis_2bit,10,2.0,20,20.0,one computational-basis qubit per quantisation bit
+heavy_tailed,9,basis_4bit,10,4.0,40,40.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,0,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,0,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,0,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,0,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,0,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,0,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,1,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,1,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,1,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,1,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,1,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,1,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,2,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,2,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,2,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,2,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,2,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,2,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,3,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,3,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,3,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,3,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,3,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,3,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,4,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,4,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,4,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,4,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,4,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,4,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,5,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,5,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,5,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,5,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,5,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,5,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,6,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,6,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,6,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,6,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,6,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,6,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,7,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,7,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,7,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,7,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,7,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,7,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,8,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,8,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,8,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,8,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,8,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,8,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,9,amplitude,8,,3,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+ordinal_discrete,9,phase_product,8,,8,8.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+ordinal_discrete,9,angle_product,8,,8,8.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+ordinal_discrete,9,basis_1bit,8,1.0,8,8.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,9,basis_2bit,8,2.0,16,16.0,one computational-basis qubit per quantisation bit
+ordinal_discrete,9,basis_4bit,8,4.0,32,32.0,one computational-basis qubit per quantisation bit
+imbalanced,0,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,0,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,0,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,0,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,0,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,0,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,1,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,1,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,1,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,1,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,1,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,1,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,2,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,2,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,2,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,2,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,2,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,2,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,3,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,3,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,3,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,3,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,3,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,3,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,4,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,4,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,4,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,4,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,4,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,4,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,5,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,5,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,5,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,5,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,5,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,5,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,6,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,6,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,6,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,6,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,6,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,6,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,7,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,7,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,7,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,7,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,7,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,7,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,8,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,8,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,8,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,8,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,8,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,8,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit
+imbalanced,9,amplitude,12,,4,,log2(d) qubits after padding; arbitrary state preparation may be O(d) or more
+imbalanced,9,phase_product,12,,12,12.0,one phase-encoded qubit per feature; operation count is a simple feature-wise estimate
+imbalanced,9,angle_product,12,,12,12.0,one rotation-encoded qubit per feature; excludes state preparation and transpilation
+imbalanced,9,basis_1bit,12,1.0,12,12.0,one computational-basis qubit per quantisation bit
+imbalanced,9,basis_2bit,12,2.0,24,24.0,one computational-basis qubit per quantisation bit
+imbalanced,9,basis_4bit,12,4.0,48,48.0,one computational-basis qubit per quantisation bit

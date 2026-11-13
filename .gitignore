@@ -1,0 +1,20 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Jupyter & IDE settings
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS & temporary office files
+.DS_Store
+Thumbs.db
+~$*.xlsx

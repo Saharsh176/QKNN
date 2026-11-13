@@ -1,0 +1,6 @@
+Study 08 completed in 100.3 seconds
+Workbook: results/study08/study_08_geometry_results.xlsx
+Datasets: ['iris', 'wine', 'breast_cancer']
+Splits: 20
+WARNING: ideal binomial SWAP sampling only; no Aer circuits or hardware noise.
+Repeated stratified splits overlap; reported split variation is descriptive.
